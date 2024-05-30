@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #242424;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    margin: 10px 0 0 5px;
+}
+
+.menu {
+    border: 5px solid transparent;
+}
+
+.menu:hover {
+    background-color: #5a5a5a;
+    border-radius: 3px;
+    transition: 0.07s;
+}
+
+.logo {
+    height: 24px;
+    width: 24px;
+    display: inline-block;
+}
+
+nav > p {
+    font-weight: 700;
+    font-size: 1.1em;
+    display: inline;
+    color: white; 
+}
+
+#temp {
+    font-weight: 700;
+    font-size: 1.1em;
+    float: right;
+    margin-right: 50px;
+    border: 10px solid transparent;
+    cursor: pointer; 
+}
+
+#engrena {
+    border: 10px solid transparent;
+    float: right; 
+    margin: 0 20px 0 0;
+    cursor: pointer;
+}
+
+#temp:hover,
+#engrena:hover {
+    background-color: #5a5a5a;
+    border-radius: 3px;
+    transition: 0.07s;
+}
+
+.container {
+    margin-top: 15%;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.search input[type="search"] {
+    padding: 10px;
+    font-size: 1em;
+    width: 300px;
+    border-radius: 20px;
+    border: 1px solid transparent;
+    outline: none;
+    background-color: #5a5a5a;
+}
+
+
+.princi {
+    margin-bottom: 20px;
+}
+
+.princi>p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+}
+
+#lupa{
+    margin-left: 10px;
+    font-size: 1.5em;
+    background-color: transparent;
+    border-style: none;
+    cursor: pointer;
+    
+}
