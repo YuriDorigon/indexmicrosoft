@@ -107,7 +107,7 @@ main {
 
 .esquerda{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: start;
     gap: 5px;
     margin: 0;
@@ -131,6 +131,7 @@ main {
 
     .esquerda> a{
         display: none;
+        flex-direction: column;
     }
 
     #temp,#engrena{
